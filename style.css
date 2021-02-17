@@ -1,0 +1,36 @@
+#snippet {
+    width: 30%;
+    min-width: 400px;
+    visibility: visible;
+}
+
+#formulaImage {
+    width: 20%;
+}
+
+@media screen and (max-width: 1000px) {
+    #formulaImage {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #snippet {
+        visibility: hidden;
+    }
+}
+
+@media (pointer:none), (pointer:coarse) {
+    #formulaImage {
+        width: 100%;
+    }
+
+    #snippet {
+        width: 100%;
+        visibility: visible;
+    }
+
+    #formAndAnswers {
+        text-align: center;
+    }
+}
