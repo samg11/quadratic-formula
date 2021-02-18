@@ -26,7 +26,7 @@ body {
 
 @media (pointer:none), (pointer:coarse) {
     #formulaImage {
-        visibility: hidden;
+        width: 80%;
     }
 
     #snippet {
