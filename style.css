@@ -1,3 +1,7 @@
+body {
+    overflow: hidden;
+}
+
 #snippet {
     width: 30%;
     min-width: 400px;
@@ -22,12 +26,11 @@
 
 @media (pointer:none), (pointer:coarse) {
     #formulaImage {
-        width: 100%;
+        visibility: hidden;
     }
 
     #snippet {
-        width: 100%;
-        visibility: visible;
+        visibility: hidden;
     }
 
     #formAndAnswers {
